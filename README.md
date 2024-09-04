@@ -2,6 +2,10 @@
 
 This repository contains the code for the Master Thesis "Sybil Detection using Graph Neural Networks" by Stuart Heeb, done under the supervision of Andreas Plesner and Prof. Dr. Wattenhofer at the [Distributed Computing Group](https://disco.ethz.ch) of ETH Zürich.
 
+## Quick Links
+
+Code to be uploaded soon.
+
 ## Complete Thesis Experiment Data
 
 ### Experiment 1
