@@ -4,7 +4,8 @@ This repository contains the code for the Master Thesis "Sybil Detection using G
 
 ## Quick Links
 
-Code to be uploaded soon.
+- [Thesis (pdf)](thesis/Stuart_Heeb_Sybil_Detection_using_GNNs.pdf)
+- [Presentation (pdf)](presentation/final_presentation.pdf)
 
 ## Complete Thesis Experiment Data
 
