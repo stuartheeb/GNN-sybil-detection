@@ -2,12 +2,44 @@
 
 This repository contains the code for the Master Thesis "Sybil Detection using Graph Neural Networks" by Stuart Heeb, done under the supervision of Andreas Plesner and Prof. Dr. Wattenhofer at the [Distributed Computing Group](https://disco.ethz.ch) of ETH Zürich.
 
-**Code will be added in the coming weeks.**
+This thesis was also submitted as a paper to the AAAI 2025 conference.
 
 ## Quick Links
 
+- [Paper (pdf)](paper/paper.pdf)
 - [Thesis (pdf)](thesis/Stuart_Heeb_Sybil_Detection_using_GNNs.pdf)
 - [Presentation (pdf)](presentation/presentation.pdf)
+
+## Installation Guide
+
+1. Install the environment with the `.yml` file, while in the root directory of the repository:
+
+```
+conda env create -f environment.yml
+```
+
+2. Activate the environment:
+
+```
+conda activate gnn-sybil-detection
+```
+
+
+3. Change into the `code` directory
+
+```
+cd code
+```
+
+4. Run the experiments
+
+```
+python paper_experiments.py  # For the paper experiments
+python thesis_experiments.py  # For the thesis experiments
+python thesis_figures.py  # For the remaining thesis figures
+```
+
+
 
 ## Complete Thesis Experiment Data
 
