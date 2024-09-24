@@ -1,0 +1,19 @@
+name: gnn-sybil-detection
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10.0
+  - pytorch=2.3.0
+  - pip
+  - pip:
+    - littleballoffur==2.3.1
+    - matplotlib==3.8.3
+    - networkx==3.1
+    - numpy==1.26.4
+    - pandas==1.5.3
+    - scikit-learn==1.4.2
+    - scipy==1.12.0
+    - seaborn==0.13.2
+    - torch-geometric==2.5.3
+    - tqdm==4.66.2
