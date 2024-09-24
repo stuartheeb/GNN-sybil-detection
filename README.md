@@ -6,13 +6,13 @@ This thesis was also submitted as a paper to the AAAI 2025 conference.
 
 ## Quick Links
 
-- [Paper (pdf)](paper/paper.pdf)
+- [Paper (pdf)](paper) (to be added)
 - [Thesis (pdf)](thesis/Stuart_Heeb_Sybil_Detection_using_GNNs.pdf)
 - [Presentation (pdf)](presentation/presentation.pdf)
 
 ## Installation Guide
 
-1. Install the environment with the `.yml` file, while in the root directory of the repository:
+1. Install the conda environment with the provided `.yml` file, while in the root directory of the repository:
 
 ```
 conda env create -f environment.yml
