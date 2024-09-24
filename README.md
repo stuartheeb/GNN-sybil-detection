@@ -26,7 +26,7 @@ conda activate gnn-sybil-detection
 cd code
 ```
 
-4. Run the experiments (to re-generate data, make sure `RUN` flag is set to `True`)
+4. Run the experiments (to re-generate data, make sure the `RUN` flag is set to `True`)
 ```
 python paper_experiments.py  # For the paper experiments
 python thesis_experiments.py  # For the thesis experiments
