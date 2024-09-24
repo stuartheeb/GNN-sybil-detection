@@ -4,8 +4,8 @@ from samplers import *
 import os
 
 
-RUN_EXPERIMENT = False
-GENERATE_PLOT = True
+RUN = False
+PLOT = True
 
 class Experiment:
     def __init__(self, num_experiments: int, subdirectory: str, active: bool = True):
@@ -677,7 +677,7 @@ if __name__ == "__main__":
 
     for experiment in experiments:
         if experiment.active:
-            if RUN_EXPERIMENT:
+            if RUN:
                 experiment.run_experiment()
-            if GENERATE_PLOT:
+            if PLOT:
                 experiment.plot_results()
